@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jarjarjar/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jarjarjar/commons-dbutils-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jarjarjar/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jarjarjar/sqljdbc4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/c3p0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/dbutils"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/junit"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/sql"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/RXTXcomm.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/RXTX"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
