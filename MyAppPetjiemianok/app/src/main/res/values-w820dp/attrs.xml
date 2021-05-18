@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆弧进度条-->
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="ringColor" format="color"/>
+        <attr name="ringBgColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="StatisticsView">
+        <attr name="maxValue" format="integer"></attr>
+        <attr name="dividerCount" format="integer"></attr>
+        <attr name="viewTitle" format="string"></attr>
+        <attr name="lineColor" format="color"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="pathColor" format="color"></attr>
+    </declare-styleable>
+</resources>

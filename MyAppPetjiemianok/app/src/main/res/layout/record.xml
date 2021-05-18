@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/back_theme_yellow">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageButton
+            android:id="@+id/turn_in_back"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:onClick="tufanhuiHandler"
+            android:scaleType="fitXY"
+            android:src="@drawable/back_button" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="History record"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="选择数据："
+        android:textSize="21dp"
+        android:gravity="center"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="100dp">
+
+        <RadioButton
+            android:id="@+id/temperature"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="体温"
+            android:checked="true"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/heart"
+            android:text="心率"
+
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/run"
+            android:text="运动"
+            android:textSize="20dp"/>
+    </RadioGroup>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="选择时间："
+            android:textSize="21dp"
+            android:gravity="center"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="100dp">
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/day"
+                android:checked="true"
+                android:text="天"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/week"
+                android:text="周"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/month"
+                android:text="月"
+                android:textSize="20dp"/>
+        </RadioGroup>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:layout_marginLeft="105dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="190dp"
+            android:layout_height="45dp"
+            android:background="@drawable/turn_in_btn"
+            android:text="确            定"
+            android:textColor="@color/turn_in_text"
+            android:id="@+id/send"
+            android:textSize="21dp"
+            android:onClick="invalidate"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="10dp">
+        <com.statisticsview.view.StatisticsView
+            android:id="@+id/statisticsView"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            app:viewTitle="宠物心率变化情况"/>
+    </RelativeLayout>
+</LinearLayout>

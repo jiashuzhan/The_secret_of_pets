@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login_confirm</servlet-name>
+    <servlet-class>tzc.bean.login_confirm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MarkSvlt</servlet-name>
+    <servlet-class>tzc.bean.MarkSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentLoginSvlt</servlet-name>
+    <servlet-class>tzc.bean.StudentLoginSvlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClassSvlt</servlet-name>
+    <servlet-class>tzc.bean.ClassSvlt</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>login_confirm</servlet-name>
+    <url-pattern>/servlet/login_confirm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MarkSvlt</servlet-name>
+    <url-pattern>/servlet/MarkSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentLoginSvlt</servlet-name>
+    <url-pattern>/servlet/StudentLoginSvlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassSvlt</servlet-name>
+    <url-pattern>/servlet/ClassSvlt</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

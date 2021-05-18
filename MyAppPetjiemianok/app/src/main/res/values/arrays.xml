@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="managerDrivers">
+
+        <item>manage_driver_name</item>
+        <item>manager_driver_car</item>
+        <item>manager_line</item>
+        <item>manager_driver_workStatus</item>
+        <item>manager_driver_restTime</item>
+    </string-array>
+<string-array name="user_func_list">
+        <item>获取用户信息</item>
+        <item>批量获取用户的粉丝数、关注数、微博数</item>
+    </string-array>
+    
+    <string-array name="statuses_func_list">
+        <item>获取当前登录用户及其所关注用户的最新微博</item>
+        <item>获取 @ 当前用户的最新微博</item>
+        <item>调用 update 函数发送纯文本信息的微博</item>
+        <item>调用 upload 函数发送带本地图片的微博</item>
+        <item>调用 uploadUrlText 函数发送带网络图片的微博</item>
+    </string-array>
+    
+    <string-array name="comment_func_list">
+        <item>获取@到我的评论</item>
+        <item>获取我发出的评论列表</item>
+        <item>获取当前登录用户的最新评论</item>
+    </string-array>
+    
+    <string-array name="favorite_func_list">
+        <item>获取当前用户的收藏列表</item>
+        <item>获取当前登录用户的收藏标签</item>
+    </string-array>
+    <string-array name="line_202">
+        <item>台州学院</item>
+        <item>绿化</item>
+        <item>三峰路口</item>
+        <item>大洋小区</item>
+        <item>职教中心</item>
+        <item>市一医院</item>
+        <item>办事大厅</item>
+        <item>临海小学</item>
+        <item>客运中心</item>
+        <item>耀达大厦</item>
+        <item>耀达雍怡广场</item>
+        <item>小商品城</item>
+        <item>东湖公园</item>
+        <item>耀达商场</item>
+        <item>台州宾馆</item>
+        <item>中心菜场</item>
+        <item>中意宾馆</item>
+        <item>国贸宾馆</item>
+        <item>新江路口</item>
+        <item>巾山小区</item>
+        <item>柏叶西路</item>
+        <item>客运中心</item>
+        <item>花街工业园</item>
+        <item>办事大厅</item>
+        <item>市一医院</item>
+        <item>职教中心</item>
+        <item>大洋社区</item>
+        <item>三峰路口</item>
+        <item>绿化</item>
+    </string-array>
+    <string-array name="line_218">
+        <item>崇和门</item>
+        <item>新客站</item>
+        <item>三峰</item>
+        <item>法轮寺</item>
+        <item>桃渚城址</item>
+        <item>海山公园</item>
+        <item>桃渚城址</item>
+        <item>法轮寺</item>
+        <item>三峰</item>
+        <item>新客站</item>
+    </string-array>
+
+</resources>

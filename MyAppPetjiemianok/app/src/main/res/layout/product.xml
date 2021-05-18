@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_theme_yellow">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="产品说明"
+            android:textSize="25dp" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/changping"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <TextView
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="        萌宠管家源自于一个为现代宠物智能化管理的美好蓝图，做出一些理论的构想和实际的应用相结合，在物联网与互联网技术的支撑下，构造出一个完整的宠物监测系统。
+        系统给出了许多功能，每一项功能都有着独到的设计思路，以及特别的实现方式，在各种方式支撑下，一个适合用户监测管理自己爱宠的系统就此完成。
+        在此感谢您购买我们的产品，我们会不断的改进产品，为您和您的爱宠服务。
+        再次感谢您的支持！"
+        android:textSize="24dp"/>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_theme_yellow">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="宠 物 寄 养"
+            android:textStyle="italic"
+            android:textSize="25dp" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="195dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:background="#51ede3b7">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/hosp111"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginLeft="10dp"
+                android:text="店名：**宠物医院
+电话：123****4567
+地址：浙江省*******
+价格：50/天"
+                android:textSize="16dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="215dp"
+            android:background="#51ede3b7">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/hosp22"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginLeft="10dp"
+                android:text="店名：**宠物门诊
+电话：123****5789
+地址：浙江省*******
+价格：55/天"
+                android:textSize="16dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="265dp"
+            android:background="#51ede3b7">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/hosp33"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginLeft="10dp"
+                android:text="店名：**宠物医院
+电话：123****4567
+地址：**市**路**号
+价格：250/周"
+                android:textSize="16dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="265dp"
+            android:background="#51ede3b7">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/hosp44"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginLeft="10dp"
+                android:text="店名：**宠物门诊
+电话：123****4920
+地址：浙江省*******
+价格：55/天"
+                android:textSize="16dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+        android:layout_width="195dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="530dp"
+        android:background="#51ede3b7">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/hosp55"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginLeft="10dp"
+            android:text="店名：**宠物门诊
+电话：123****8420
+地址：浙江省*******
+价格：55/天"
+            android:textSize="16dp"/>
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="530dp"
+            android:background="#51ede3b7">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/hosp66"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginLeft="10dp"
+                android:text="店名：**宠物门诊
+电话：123****2057
+地址：浙江省*******
+价格：55/天"
+                android:textSize="16dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/back_theme_yellow"
+android:orientation="vertical"
+android:gravity="center_horizontal">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加宠物信息"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:typeface="serif"
+            android:textSize="22sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="请根据实际情况填写，否则可能导致数据偏差"
+            android:textColor="@color/gray_black"
+            android:textSize="12sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="主人用户名"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:background="#FCFCFC"/>
+
+            <EditText
+                android:id="@+id/text_petname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FCFCFC"
+                android:gravity="center_vertical"
+                android:hint="请输入宠物姓名"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="12dp"
+            android:background="#FCFCFC"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="类型"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/text_pet_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:hint="请输入宠物类型"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:background="#FCFCFC"
+                android:text="宠物ID"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/text_pet_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FCFCFC"
+                android:gravity="center_vertical"
+                android:hint="请输入宠物ID"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="年龄"
+                android:textColor="@color/black"
+                android:background="#FCFCFC"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/text_petage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FCFCFC"
+                android:gravity="center_vertical"
+                android:hint="请输入宠物年龄"
+                android:text=""
+                android:inputType="numberDecimal"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="体重"
+                android:textColor="@color/black"
+                android:background="#FCFCFC"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/text_petkg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FCFCFC"
+                android:gravity="center_vertical"
+                android:hint="请输入宠物体重"
+                android:text=""
+                android:inputType="numberDecimal"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_finish"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/turn_in_button_none_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="addpetHandler"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

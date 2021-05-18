@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_theme_yellow">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="联系我们"
+            android:textSize="25dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/aaa" />\
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="浙江省********"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:gravity=""/>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="43dp">
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/aaaaa"
+                android:layout_marginLeft="15dp" />\
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1102553285@qq.com"
+                android:layout_marginLeft="5dp"
+                android:textSize="18dp"
+                android:gravity=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="78dp">
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/aa1"
+                android:layout_marginLeft="15dp" />\
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="178****3171"
+                android:textSize="18dp"
+                android:layout_marginLeft="5dp"
+                android:gravity=""/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/contact_name"
+            android:layout_marginLeft="25dp"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="#FCFCFC"
+            android:gravity="center_vertical"
+            android:hint="Name*"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_black"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/contact_email"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="15dp"
+            android:background="#FCFCFC"
+            android:gravity="center_vertical"
+            android:hint="Email*"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_black"
+            android:textSize="22sp" />
+        <EditText
+            android:id="@+id/text_car_weight"
+            android:layout_marginLeft="25dp"
+            android:layout_width="250dp"
+            android:layout_marginTop="55dp"
+            android:layout_height="45dp"
+            android:background="#FCFCFC"
+            android:gravity="center_vertical"
+            android:hint="Message"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_black"
+            android:textSize="22sp" />
+        <Button
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="@drawable/turn_in_btn"
+            android:text="Send"
+            android:textColor="@color/turn_in_text"
+            android:id="@+id/send"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#ebebeb</color>
+    <color name="black">#000000</color>
+    <color name="darkgrey">#C0C0C0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#4287FF</color>
+    <color name="gray">#ddd</color>
+    <color name="darkyellow">#FFCC33</color>
+    <color name="gray_black">#88000000</color>
+    <color name="soft_black">#cc000000</color>
+<color name="title_first">#f47920</color>
+    <color name="title_second">#843900</color>
+    <color name="back_theme_yellow">#fab27b</color>
+    <color name="login_text">#023332</color>
+    <color name="login_background">#bdf9da72</color>
+    <color name="turn_in_line">#000000</color>
+    <color name="turn_in_button_none_background">#78a355</color>
+    <color name="turn_in_button_press_background">#74905d</color>
+    <color name="turn_in_text">#e4d73f</color>
+
+    <!--register-->
+    <color name="register">#ffffff</color>
+    <color name="register_text">#efc3cac9</color>
+    <color name="register_editor">#ffffff</color>
+
+
+    <!-- Bus-->
+    <color name="left_medium">#efedd9</color>
+    <color name="left_top">#e1b852</color>
+    <color name="medium_top">#c68464</color>
+    <color name="medium">#e46c70</color>
+    <color name="medium_bottom">#efbeb0</color>
+    <color name="right_bottom">#dab254</color>
+    <color name="other_in">#defcda</color>
+
+    <!--Driver-->
+    <color name="driver_work_line">#ffffff</color>
+    <color name="driver_text">#ffffff</color>
+    <color name="driver_work_other_text">#a6a0a0</color>
+
+    <!--Manager-->
+    <color name="manager_work">#a6a0a0</color>
+    <color name="manager_text_button">#ffffff</color>
+
+    <!-- Passenger -->
+    <color name="text_line">#9e9b9b</color>
+    <color name="text_ad">#51ede3b7</color>
+
+
+    <color name="search_background">#F8F8FF</color>
+
+
+    <color name="colorPrimary2">#fab27b</color>
+    <color name="colorPrimaryDark2">#fab27b</color>
+    <color name="colorAccent2">#FF4081</color>
+
+    <color name="white2">#f5f3f3</color>
+    <color name="colorRed">#d50f09</color>
+</resources>

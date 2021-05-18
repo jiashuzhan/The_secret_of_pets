@@ -1,0 +1,616 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_title">示例代码</string>
+    <string name="base_function">基本功能</string>
+    <string name="hud_title">HUD显示</string>
+    <string name="extend_title">扩展功能</string>
+    <string name="extend_navi_navi">自定义导航</string>
+
+    <string name="navibar_title">路径规划</string>
+    <string name="navi_car">驾车</string>
+    <string name="navi_foot">步行</string>
+    <string name="start_hud_navi">HUD显示</string>
+    <string name="complex_function">综合展示</string>
+
+
+    <string name="navi_empty_car">"驾   车"</string>
+    <string name="navi_empty_foot">"步   行"</string>
+    <string name="navi_start">"起    点"</string>
+    <string name="navi_middle">途经点</string>
+    <string name="navi_end">"终    点"</string>
+    <string name="navi_strategy">"策    略"</string>
+    <string name="navi_route">路径规划</string>
+    <string name="navi_navi">模拟导航</string>
+    <string name="start_navi_navi">实时导航</string>
+    <string name="navi_strategy_speed">速度最快</string>
+    <string name="navi_strategy_cost">避免收费</string>
+    <string name="navi_strategy_distance">距离最短</string>
+    <string name="navi_strategy_nohighway">不走高速快速路</string>
+    <string name="navi_strategy_timenojam">时间最短且躲避拥堵</string>
+    <string name="navi_strategy_costnojam">避免收费且躲避拥堵</string>
+
+    <string name="theme_blue">经典蓝</string>
+    <string name="theme_pink">可爱粉</string>
+    <string name="theme_white">简约白</string>
+
+    <string name="setting">设置</string>
+    <string name="day">白天</string>
+    <string name="night">夜间</string>
+    <string name="yes">"  是  "</string>
+    <string name="no">"  否  "</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="daynightmode">"昼夜模式    "</string>
+    <string name="deviationrecalculation">"偏航重算    "</string>
+    <string name="jamrecalculation">"拥堵重算    "</string>
+    <string name="trafficbroadcast">"交通播报    "</string>
+    <string name="camerabroadcast">摄像头播报</string>
+    <string name="screenon">"屏幕常亮    "</string>
+    <string name="routeshow">线路展示</string>
+    <string name="tapmap">点击地图设置</string>
+    <string name="starttapmap">我的位置（可点击地图设置）</string>
+    <string name="walkdescription">步行状态不可用</string>
+    <string name="routeinfo">全程   --公里/--分钟    收费 --元</string>
+    <string name="routeinfo_1">全程 </string>
+    <string name="routeinfo_2">公里/</string>
+    <string name="routeinfo_3">"分钟    收费"</string>
+    <string name="routeinfo_4">元</string>
+    <string name="routeinfo_default">--</string>
+    <string name="app_id">输入您讯飞的appid</string>
+    <string name="mypoistion">我的位置</string>
+    <string name="mappoistion">地图点选</string>
+    <string name="positioninfo">位置信息</string>
+
+    <string-array name="preference_values_tts_role">z
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="intell_bd_title">智能播报</string>
+
+    <string name="poi_input_type_start">从</string>
+    <string name="poi_input_type_dest">到</string>
+    <string name="poi_input_type_mid">经</string>
+
+    <string name="navi_guide_from">出发</string>
+    <string name="navi_guide_end">到达终点</string>
+
+    <string name="drawer_open">开</string>
+    <string name="drawer_close">关</string>
+
+    <!-- 首页索引 -->
+    <string name="navi_ui">智能公交导航类型</string>
+    <string name="blank"></string>
+
+    <string name="navi_start_end_poi_calculate_title">起终点算路</string>
+    <string name="navi_start_end_poi_calculate_desc">包含起点和终点的组件算路</string>
+    <string name="navi_end_poi_calculate_title">无起点算路</string>
+    <string name="navi_end_poi_calculate_desc">无起点有终点的组件算路</string>
+    <string name="navi_bywayof_poi_calculate_title">途经点算路</string>
+    <string name="navi_bywayof_poi_calculate_desc">有途经点的组件算路</string>
+    <string name="navi_ui_navi_title">组件直接导航</string>
+    <string name="navi_ui_navi_desc">组件直接导航</string>
+    <string name="navi_ui_component_theme_title">起始点算路</string>
+    <string name="navi_ui_component_theme_desc">起始点算路</string>
+
+    <string name="navi_route_line">路径规划</string>
+    <string name="navi_route_driver_title">驾车路径规划</string>
+    <string name="navi_route_driver_desc">驾车路径规划</string>
+    <string name="navi_route_walk_title">步行路径规划</string>
+    <string name="navi_route_walk_desc">步行路径规划</string>
+    <string name="navi_route_ride_title">骑行路径规划</string>
+    <string name="navi_route_ride_desc">骑行路径规划</string>
+    <string name="navi_route_trunk_title">货车导航路径规划</string>
+    <string name="navi_route_trunk_desc">货车导航路径规划</string>
+
+    <string name="navi_type">多类型导航</string>
+    <string name="navi_type_gps_title">实时导航</string>
+    <string name="navi_type_gps_desc">实时导航</string>
+    <string name="navi_type_inner_voice">内置语音导航</string>
+    <string name="navi_type_trunk">货车导航</string>
+
+    <string name="navi_type_emu_title">模拟导航</string>
+    <string name="navi_type_emu_desc">模拟导航</string>
+    <string name="navi_type_intelligent_title">智能巡航</string>
+    <string name="navi_type_intelligent_desc">智能巡航</string>
+    <string name="navi_type_hud_title">HUD导航</string>
+    <string name="navi_type_hud_desc">HUD导航</string>
+
+    <string name="navi_ui_custom">导航UI自定义</string>
+    <string name="navi_ui_custom_car_icon">自定义车标</string>
+    <string name="navi_ui_custom_route">自定义路线UI</string>
+    <string name="navi_ui_custom_route_style">自定义路线纹理</string>
+    <string name="navi_ui_custom_trun_across_tip">自定义路口转向提示</string>
+    <string name="navi_ui_custom_northmode">正北模式</string>
+    <string name="navi_ui_custom_wholescan_button">自定义全览模式</string>
+    <string name="navi_ui_custom_compass">自定义指南针</string>
+    <string name="navi_ui_custom_traffic_button">自定义路况按钮</string>
+    <string name="navi_ui_custom_zoom_button">自定义放大缩小按钮</string>
+    <string name="navi_ui_custom_across_overlay">自定义路口放大图</string>
+    <string name="navi_ui_custom_traffic_bar">自定义导航光柱</string>
+    <string name="navi_ui_custom_traffic_bar_new">自定义导航光柱(new)</string>
+    <string name="navi_ui_custom_route_select">自定义道路选择</string>
+
+
+    <string name="navi_expand">导航扩展</string>
+    <string name="navi_expand_set_gps_data">传入GPS数据导航</string>
+    <string name="navi_expand_route_detail">展示导航路径详情</string>
+    <string name="navi_expand_switch_road">主辅路切换</string>
+
+
+<string name="app_name">爱宠大机密</string>
+    <string name="passenger">Passenger</string>
+    <string name="driver">Driver</string>
+    <string name="manager">Manager</string>
+    <string name="login_in_a_word">The Easiest App of Bus </string>
+    <string name="another_way">Login By Other way</string>
+    <string name="login">Login</string>
+    <string name="forget">Forget</string>
+    <string name="resign">Resign</string>
+    <string name="register">Register</string>
+    <string name="register_name">UserName</string>
+    <string name="register_password">Password</string>
+    <string name="register_nickname">NickName</string>
+    <string name="register_login_method">RegisterWay</string>
+    <string name="register_email">E-Mail</string>
+    <string name="register_telephone">MobilePhone</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="register_username_warning">please input user_name</string>
+    <string name="register_password_warning">please input password</string>
+    <string name="register_nickname_warning">please input nickname</string>
+    <string name="register_email_warning">please input e-mail</string>
+    <string name="register_telephone_warning">please input phone number</string>
+    <string name="none_try">None</string>
+    <string name="change_formation">ChangeInformation</string>
+    <string name="change">Change</string>
+    <string name="no_other_data">There is no more data!</string>
+
+    <!--  RoadLineInformation  -->
+    <string name="road">Road</string>
+    <string name="firstStation">firstStation:</string>
+    <string name="lastStation">LastStation:</string>
+    <string name="station_count">Count:</string>
+    <string name="station_count_end">Station</string>
+    <string name="firstBus">FirstBus:</string>
+    <string name="lastBus">LastBus:</string>
+    <string name="interval">Interval:</string>
+    <string name="minute">Minute</string>
+    <string name="num_of_station_start">Number:</string>
+    <string name="num_of_station_end">station</string>
+
+    <!--Driver-->
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="is_health">Healthy</string>
+    <string name="is_not_health">Unhealthy</string>
+    <string name="year">years</string>
+    <string name="driving_years">DrivingYears:</string>
+    <string name="worker_status">WorkingStatus</string>
+    <string name="cat_license">CarLicense</string>
+    <string name="working_road">WorkingRoad</string>
+    <string name="working_status">WorkingStatus</string>
+    <string name="working_time">WorkingTime</string>
+    <string name="work_for_rest">RestEvery</string>
+    <string name="time">Time</string>
+    <string name="status">WorkingStatus</string>
+    <string name="light_one">BlockOne</string>
+    <string name="light_two">BlockTwo</string>
+    <string name="light_three">BlockThree</string>
+    <string name="light_four">BlockFour</string>
+    <string name="workId">WorkId:</string>
+    <string name="carId">CarLicense:</string>
+    <string name="cars_status">CarStatus:</string>
+    <string name="car_temperature">CarTemperature:</string>
+    <string name="person_temperature">℃:</string>
+    <string name="car_type">Car Type</string>
+    <string name="car_info">Car Information</string>
+    <string name="car_longitude">longitude:</string>
+    <string name="car_latitude">latitude:</string>
+    <string name="send_car_message">flash</string>
+    <string name="navi">navi</string>
+    <string name="light_strength_lead">LightStrength:</string>
+
+
+    <!--Manager-->
+
+    <string name="manager_driver_count">there are  </string>
+    <string name="manager_driver_count_end">driver </string>
+
+    <string name="manager_company">The</string>
+    <string name="company">Company</string>
+
+    <string name="manager_bus_count">There are</string>
+    <string name="bus">Buses</string>
+
+    <string name="message_theme">Theme:</string>
+    <string name="message_sender">From:</string>
+    <string name="message_content">Content</string>
+    <string name="message_content_hint">Please input message</string>
+    <string name="send">Send</string>
+    <string name="send_success">Send_Success</string>
+    <string name="manage_driver_name">Name:</string>
+    
+    <string name="waiting_for_done">Waiting for doing:</string>
+    <string name="Grade">Grade Of This Month:</string>
+    <string name="money">Staff</string>
+    <string name="sign_in">Sign In</string>
+    <string name="message_block">PersonalMessage</string>
+
+    <!-- Passenger  -->
+    <string name="passenger_ticket">BuyTicket</string>
+    <string name="passenger_record">Map</string>
+
+    <!-- AD  -->
+    <string name="ad01">对宠物狗狗有益的食谱</string>
+    <string name="ad001">2019年3月11日</string>
+    <string name="ad011">         （年龄小的幼犬还是狗粮为主吧）✨✨✨✨✨✨✨
+1⃣️苹果：
+含丰富食物纤维，对改善便秘或肠道问题很有帮助，另外，食物纤维中的果胶对排除体内毒素也很有功效。不过，因为苹果中含有过多糖分，所以要注意不能给狗狗过量食用
+2⃣️瘦猪肉：
+瘦肉的脂肪含量少，并且含有大量能促进消化机能恢复正常的维生素B1。虽然狗狗的必需摄取量很少，但如果摄取不足，可能会引起一些皮肤方面的问题。
+附：要用白水煮哦，凉了之后食用，狗狗不要吃温热的东西
+3⃣️香蕉：
+能迅速补充营养的水果，对狗狗也同样适用。除含有丰富食物纤维外，还有寡糖能促进肠道中有益菌的增加，帮助肠道蠕动。特别推荐给便秘或者容易吃坏肚子的狗狗。
+4⃣️西兰花：
+绿菜花是由花苞和茎组成，除了含有β胡萝卜素、维生素B1、B2、C之外，还含有铁及食物纤维，是十分具有营养价值的食物。特别是茎的部分纤维含量非常丰富。
+附：要用白水煮哦，凉了之后食用，狗狗不要吃温热的东西
+5⃣️鸡胸肉：
+当胃肠等消化器官比较虚弱时，食用高蛋白低热量的鸡胸肉是最适合的。鸡胸肉不含多余的脂肪，特别是对于节食中的狗狗来说，是补充动物性蛋白质不可缺少的食材。
+附：要用白水煮哦，凉了之后食用，狗狗不要吃温热的东西
+6⃣️南瓜：
+南瓜容易产生饱腹感，除了纤维丰富外，还含有维生素B2、B12、维生素C及胡萝卜素等各种营养素。其中维生素B2能预防贫血。南瓜对改善便秘也很有效果。
+附：要用白水煮哦，凉了之后食用，狗狗不要吃温热的东西
+7⃣️红薯：
+薯类含有丰富的维生素C及食物纤维，其中又以红薯中所含的食物纤维含量最高。尤其是红薯中所含的黏液蛋白，对排出堆积在肠道中的排泄特特别有效。
+附：要用白水煮哦，凉了之后食用，狗狗不要吃温热的东西
+8⃣️胡萝卜：
+以含有丰富的β胡萝卜素著称，矿物质和维生素含量也很丰富，并且具有高度的净化作用，能够有效净化胃肠及肝脏。此外，对预防癌症及食欲不振、心脏病也有效果。
+附：要用白水煮哦，凉了之后食用，狗狗不要吃温热的东西。也可生吃
+9⃣️油菜：
+油菜是维生素含量丰富的蔬菜。狗狗和人一样都必须从食物中摄取维生素。据说油菜对食欲不振或者皮肤炎具有相当的疗效，对帮助体内机能活动顺畅也有相当的效果。</string>
+    <string name="ad02">关于养宠物这件事</string>
+    <string name="ad002">2019年1月10日</string>
+    <string name="ad022">  据个人喜好，选择适合的宠物相伴一生♥️
+我曾经看过一段话大概是这么个意思：当你幸福的时候，你自身条件允许的情况下，养一个宠物，会让两个人的幸福指数上升一个档次；当你是单身生活时候，宁可养个宠物，也不要让自己长期适应一个人的生活。
+--------------------------------------------------------
+    我认为养宠物要有具备以下条件：
+  1⃣️时间：要有足够的时间陪着他，你会有很多的朋友，亲人，但是从他来到你身边，他只有你一个；狗狗不论大小，打完疫苗后，是需要每天出去遛弯的，遛弯的目的有两个解决大小便和增加运动量，特别是大型犬，不然他会有多余的精力给你拆家
+  2⃣️耐心：宠物狗是要训的，最基本的坐、卧、握手、在固定点大小便、不乱吠叫、自己进犬舍、不往身上扑、不讨食、坐在指定地点不动、跟随散步、卧在指定地点不动、一招即来等；最重要的一点，毛孩子的破坏力
+  3⃣️经济承受能力：例如小型犬泰迪、比熊、雪纳瑞、约克夏、博美等小型犬会相对轻松一些，狗狗本身小，吃的也不多，花钱大多在美容、零食等上面；例如大型犬金毛、拉布拉多、萨摩耶、阿拉斯加、哈士奇等，狗粮会随着毛孩子的长大，量会越来越多，除此之外还有必要的鸡胸肉、胡萝卜、益生菌、钙片、磨牙棒、定期的洗澡等都是一笔不小的开销
+ ❗不要以没想到养狗这么费钱、太皮了、不听话和没时间照顾为理由：
+      ⚠根据自己的情况选择宠物，选择大型犬就要做好心里准备，经济富裕有富裕的养法，拮据有拮据的养法，贵的狗粮承受不住，那就便宜点的狗粮，再不舍得花钱，那就馒头，面条，只要不是咸的都可以，他们不会嫌弃，只要你别抛弃他；幼犬小时候要吃钙片、羊奶粉等，大一点的幼犬，要有磨牙棒，小零食，益生菌等，最大的一笔开销除了狗粮，就是洗澡和驱虫，驱虫有分体内驱虫和体外驱虫，洗澡根据体重，大小的不同价格不一，大型犬的价格随着长大，往往是只增不减，冬天至少一月一次，夏天至少一月两次，要等到狗狗身上有味的时候马上去洗，不能太频繁也不能时间太长。
+      ⚠狗狗的一岁相当于人的7岁，一岁以下都是小孩子脾气，不听话就要挨打，这不是虐待，不要不舍得，是要让他长记性，但是也不能忘死里打。
+      ⚠如果你是上班族
+可乐咬坏了我十几双鞋子、数不清的卫生纸、垃圾筐、还有桌子的边，墙纸，还有过年的压岁钱，你说这些能不生气吗，便宜的东西倒也无所谓不心疼，但是贵的鞋子能不心疼吗？我的解决办法是：鞋子放在他够不到地方，多给他买玩具，绳球，会发声的毛绒玩具最好是细长型的，能够磨牙的软骨头，某宝上很多而且很便宜；茶几桌子上不放任何东西，纸巾放在抽屉里，卫生间锁门；有问题就有解决的办法。
+ ❗不要以扰民、周围邻居不同意为理由
+  在选宠物之前，你要考虑好，小型犬爱叫唤，大型犬不怎么叫唤，偶尔也就几声，小型犬天天叫都没事，大型犬又怎么会扰民呢？我家可乐，快八个月了我几乎没有听见他的叫声，也就只是嗯哼几声。
+出门遛的时候，绳子一直不撒手，一个是不能撒手，年纪小撒手没也不安全，另一个是怕吓到别人，特别是老人和小孩；我基本都是勒着脖子走，万一他激动，我也能够及时拽回来，只有到了人不多的地方，我才会把绳子放长，养宠物的知道自己家的狗不咬人，但是其他人不养狗的不知道啊，特别是大型犬，实际是很温顺的，但是因为体型大，一扑，一张嘴就害怕，只要你不逗他，别惹他，他就不会扑你或者攻击你，也就不会出现所谓的狗咬人事件了，一个巴掌拍不响。
+周围很多朋友包括宠物医生都是说大型犬特别是金毛和拉布拉多喜欢扑人，其实他是想和你玩，张嘴也不是想咬你，</string>
+    <string name="ad04">柴犬的护理要点</string>
+    <string name="ad004">2017年10月11日</string>
+    <string name="ad044">                                        四季护理
+一、柴犬春季护理知识
+    春季是柴犬发情、交配、繁殖和换毛的季节。要注意发情犬的管理，梳理被毛，预防皮肤病。犬在发情期间，其生理功能和行为常会发生一些特殊的改变。发情母犬会到处乱走，要看管不好，不可任其外出自由交配，尤其是优良的纯种犬，以防品种退化。公犬常为争夺配偶而争斗，易受伤，发现伤情要及时处理。
+    春季也是换毛季节。厚实的冬季毛将要脱落，如不及时经常地梳理，不洁的皮肤会引起瘙痒，犬会以抓挠和摩擦身体来消除痒感，这就将容易将皮肤弄破，宜引起细菌感染。不洁的被毛易擀毡，为体外寄生虫和真菌的繁殖提供有利场所，引起皮肤病。因此春季应注意被毛的梳理和清洁预防皮肤病。
+二、柴犬秋季护理知识
+    秋季犬体内代射旺盛，食欲大增，采食量增加，夏毛开始脱落，秋毛开始长出，同时又是一年中第二个繁殖季节，其管理方法与春季有许多相似之处。秋季食物丰盛，给食量要增加，质量要提高，为过冬作好体质方面的储备工作。注意梳理被毛，以促进冬毛的生长。深秋之际昼夜温差大，应作好晚间犬舍的保温工作，防止感冒。
+三、柴犬冬季护理知识
+    天气寒冷，管理的重点应方在防寒保温，预防呼吸道疾病方面。由于气温降低，机体受寒冷空气袭击，或因管理不当，不注意防寒保温，运动后被雨淋风吹以及犬舍潮湿等都会引起感冒，严重的会继发气管炎、肺炎等呼吸道疾病。预防感冒的有效措施就是防寒保温，加厚垫褥，并及时更换，保持干燥，防止贼风；在天情日暖的时侯，家强户外运动，以增强体质，提高抗病能力。晒台阳不仅可取暖，阳光中的紫外线还有消毒杀菌的功效，并能促进钙质的吸收，有利于骨骼的生长发育，防止仔犬发生佝偻病。
+四、柴犬夏季护理知识
+    空气潮湿，气候炎热，应注意防暑、防潮、预防食物中毒。犬在气温高，湿度大的环境中，由于体热散发困难，极易中暑。为此，应避免在烈日下活动，犬舍应设在阴凉处，炎热天气应经常为犬进行冷水浴。发现犬出现呼吸困难、皮温增高、心跳加速等症状时，应赶快用湿冷毛巾冷敷头部，移到阴凉通风处，并立即请兽医治疗。为防潮湿，要勤换、勤晒垫辱等铺垫物，用水冲洗犬舍后，一定要待彻底晾干后方能进犬，被雨水淋湿后的犬要及时用毛巾揩干。
+    夏季柴犬的饲料易发酵、变质，容易引起食物中毒。因此，喂犬的食物最好是经加热处理后防凉的新鲜食物，喂给量要适当，不应有剩余。对已发孝变质的食物要坚决到掉，不能怕浪费而留用。因为变质食物中可能含有细菌毒素，即使高温处理也不可能将其破坏。犬吃了含有毒素的食物，即可引起食物中毒，如治疗不及时会死亡。故每当喂食后不久，若发现犬有呕吐、腹泻，全身衰弱症状时，应迅速请兽医诊疗。
+    夏季气温高，易出现食欲减退，此时应减少肉食，增加新鲜蔬菜和肉汤或适当改变饲料种类，多供给清水。另外，应经常注意清洗眼睛和耳朵，防止皮肤湿疹。</string>
+    <string name="ad03">接种疫苗后需要注意什么</string>
+    <string name="ad003">2018年9月1日</string>
+    <string name="ad0333"> 接种疫苗后需要注意什么
+
+1.由于疫苗本身也是弱病毒, 产生免疫力是在狗狗健康的基础上。如果狗狗接种疫苗的时候免疫力下降或者建康出现问题,那么疫苗不仅不能使狗狗产生免疫力,还可能会导致狗狗的病情加重。所以在接种疫苗之前,一定要给狗狗做健康检查。
+
+2.- 定要去正规的宠物医院请专业的宠物医生为狗狗接种疫苗,那些非正规的宠物诊所无论是疫苗来源还是专业水平都难以保证,为了爱犬一定要选择正规医院接种。
+
+3.狗狗在接种疫苗以后，一般抵抗力会先 下降在上升,所以在接种疫苗一周内最好不要给狗狗洗澡，也要避免此时给狗狗换环境或者带到户外去。
+
+4.接种疫苗之后一周内,要避免给狗狗口服抗生素,驱虫药等药物,否则可能会导致免疫失败。
+5.在狗狗换了新环境的半个月后,待狗狗完全适应新环境再接种疫苗。
+6.接种疫苗之后有的狗狗会出现食欲不振、体温升高、精神不佳的症状,不要惊慌,多注意观察,这种症状一般在2个小时左右就会消失。 如持续时间较长,要及时带到宠物医院诊治。</string>
+    <string name="ad033">狗狗接种疫苗的年龄和流程
+
+      1.幼犬
+
+      幼犬出生后从母乳内能够获取母体的免疫抗体,为确保避免母源抗体的干扰，幼犬在6周龄后可以进行首次接种,之后每隔3周接种1次每次一针,连续接种3次。
+
+      待3次疫苗接种完毕之后,最好间隔-周再接种一针狂犬疫苗,狂犬疫苗需要在狗狗3月龄以上方可接种。以后，每年需接种一次疫苗加一次狂犬疫苗。
+
+      2.没有接种过疫苗的成年犬
+
+      对于从来没有接种过疫苗的成年犬,可以选择接种一针或者两针六联疫苗加一针狂犬疫苗。如需接种两针疫苗，那么两针之间最好间隔3周。在接种之前要对狗狗进行身体检查,按照兽医的建议接种。</string>
+    <string name="ad05">宠物狗饮食禁忌</string>
+    <string name="ad005">2018年12月29日</string>
+    <string name="ad055">    1、犬不能吃骨头，尤其是鸡鸭一类的尖锐骨头。因为犬吞入这些带有尖角或锐边的骨头容易造成胃内膜损伤，进一步可发展成急性胃溃疡，病犬突然出现呕吐、不食、腹痛等急性症状延误治疗会发展为慢性胃溃疡，表现为偶尔呕吐并多发生于凌晨等空腹时间，病情极易加重， 并不易彻底治愈。当犬一次食入大量的骨头，还可出现便秘的现象，大便呈骨头渣样并伴有排便困难。2
+    2、犬不能长期吃肝脏。肝脏中富含维生素A，偶尔食入对犬有益无害，但长期以肝脏当每天的主食，则可造成维生素A过量甚至中毒，过量的维生素A可影响肠道对钙质的吸收及机体对钙的代谢，造成犬的缺钙，幼犬尤为重要。维生素A中毒可表现为骨质疏松，关节骨疣和脊椎病变，并会影响牙齿的发育。
+    3、犬不能吃葱、洋葱等类的食物。有些犬食入此类食物可引起红细胞溶血，出现尿血的现象，虽然其原理现在不十分清楚，但是可确定与葱类食物中的某些物质有关。4
+    4、犬不能吃巧克力。主要是因为犬对巧克力中的咖啡因很敏感，虽然个体差异很大，但的确有些犬吃了少量的巧克力就会出现兴奋不安的情况。
+    5、犬不能吃海鲜等易过敏的食品。犬可能对很多食物发生过敏，随个体不同而异，差别很大，总体来说由于海鲜类的食物含组胺成分较多，易引发过敏，其症状不一，轻重不同，可能嘴周围发生红肿，或全身性瘙痒，皮肤了出现过敏性丘疹，还有可能出现过敏性腹泻等。这些需要主人平时仔细观察，鉴别出犬对哪些食物易产生过敏。6
+    6、犬不能吃高糖、高脂肪、高盐分的食物。高糖、高脂肪的食物易使犬发胖，而肥胖易诱发一系列的疾病，如脂肪肝、糖尿病、高血脂，冠心病等等，损害运动、循环、生殖等系统。犬长期摄入量的盐分，势必加重肾脏排泄的负担，影响肾脏的的健康，同是体内各种矿物质及维生素的不平衡，直接影响皮肤的健康及抵抗力，造成各种皮肤疾病。</string>
+    <string name="ad06">狗狗缺乏运动的7个表现</string>
+    <string name="ad006">2018年3月1日</string>
+    <string name="ad0666">4、粗暴地玩耍
+   你有只不能好好玩耍的狗狗吗？有些主人愿意和狗狗摔跤，如果狗狗表现出过于兴奋通常是在发泄过剩的精力。狗狗的能量越是被抑制，
+5、难以安定、焦虑
+   很多主人发现他们的狗狗在夜间难以熟睡，或者对房屋周围的动静十分惊醒。狗狗运动量不足会难以安定，如果无法发泄精力，它们会过分焦虑开始踱步。缺乏运动对狗狗的身心都会造成伤害。
+6、拖拽牵绳
+   在家里，你或许拥有一只完美的，服从的狗狗，但如果它过于兴奋或在户外难以控制，说明狗狗运动不足。拖拽牵绳并不总是意味着不良行为，可能预示着狗狗精力旺盛需要跑一跑而不是慢悠悠地散步。
+7、寻求关注
+   当狗狗一次次地打扰主人，有些狗狗过于让人心烦，一再地粘腻主人。狗狗是不是用它的鼻子拱你，把玩具放在你的膝头，哀叫吠叫，漫无目的地在你周围徘徊，一天到晚地寻求你的关注，这一定说明狗狗的运动量严重不足了。</string>
+    <string name="ad066">1、超重
+    恐怕最容易发现狗狗运动量不足的表现就是它的体重了。超重的狗狗需要运动（可能还需要减食），保持健康体重是非常重要的。和人类一样，狗狗超重会带来更多的健康隐患。
+2、毁坏物品
+    所有狗狗在无聊的时候都会出现毁坏物品的行为。无聊的狗狗会把精力发泄在你的家具，墙壁，花园以及你那些珍贵的私人物品上（小编：毁坏墙壁也许是分离焦虑的表现，需要视情况而定）。如果你的狗狗严重毁坏家中物品，就需要考虑这是否只是缺乏运动造成的了。
+3、过度吠叫
+   狗狗无聊的时候会吠叫，尤其是你不在家的时候。狗狗会用很多方式试图和主人沟通，而吠叫能够立即引起主人的注意。通常，狗狗想要告诉我们的仅仅是它们想外出玩耍！被抑制的能量往往用发声表达出来。。</string>
+    <string name="ad07">狗狗最常见的十种病</string>
+<string name="ad077">      现在狗狗都被当作家庭中的一-员,狗狗生病了, 主人都会比较着急。现在我们就来看看狗狗最常见的十种疾病。就能有意识的在平时喂养过程中做一-些预防措施。有些狗种比较容易生某些病,也要多加关注。
+
+      1.眼病:凸眼的西施、巴哥、斗牛犬等,容易有睫毛倒插的毛病。沙皮的头部皱折多,容易眼睑内翻。白色的贵宾、比熊和博美等,容易泪管阻塞,而有两条明显的泪痕。
+
+      2.呼吸道疾病:短鼻的北京、西施、巴哥、拳狮等,容易因为鼻子后缩，连带气管也转个弯,容易喉头麻痹,气管萎缩,打呼噜。
+
+      3.皮肤病:毛超短的沙皮、巴哥、斗牛犬等因为身上有褶皱,皮肤与皮肤容易摩擦而容易藏污纳垢，容易得皮肤病。
+
+      4.牙齿疾病:小型狗,尤其超小型狗,容易乳牙恒齿并排,塞住食物碎屑,导致牙结石、牙周病,口臭，最后掉牙。;
+
+      5.外耳炎:长耳垂过下巴的可卡,或是耳道内毛密集的贵宾、西施、北京、马尔济斯等等,容易因为耳道的通风不良而有外耳炎。
+
+      6.便秘:骨头和肉吃大多,缺少运动的狗容易因便秘而食欲变差。7.骨折:小型狗因为骨架小而脆弱，最容 易骨折。8.难产:小型狗的骨盆窄,容易难产。
+
+      9.心丝虫:户外生活的狗,或蚊子多的地方,得到的机率比较大。10.先天疾病:刻意改良的迷你小型狗,容易有脑水肿、病气、兔唇。
+
+      以上就是狗狗最常见的十种疾病。在平时生活中,主人一定要多加关注,预防此类疾病的发生。而且一旦有征兆就要立即送医。</string>
+    <!-- Test -->
+    <string name="test">测试</string>
+
+<!-- 功能列表 -->
+    <string name="weibosdk_demo_feature_oauth">微博授权</string>
+    <string name="weibosdk_demo_feature_share">分享到微博</string>
+    <string name="weibosdk_demo_feature_pay">微博支付</string>
+    <string name="weibosdk_demo_feature_nick_name_login">昵称登录</string>
+    <string name="weibosdk_demo_feature_open_api">开放接口（Open API）</string>
+    <string name="weibosdk_demo_feature_open_device_id">获取设备 ID</string>
+    <string name="weibosdk_demo_feature_pay_page">支付接口 </string>
+    <string name="weibosdk_demo_shear_message">分享到私信 </string>
+    <string name="weibosdk_demo_feature_upload_log">上传统计日志</string>
+    
+    <!-- 获取 Token -->
+    <string name="weibosdk_demo_obtain_token_via_sso_all_in_one">SSO 授权（ALL IN ONE）</string>
+    <string name="weibosdk_demo_obtain_token_via_web">SSO 授权（Web）</string>
+    <string name="weibosdk_demo_obtain_token_via_sso">SSO 授权（仅客户端）</string>
+    <string name="weibosdk_demo_obtain_token_via_signature">Web 授权</string>
+    <string name="weibosdk_demo_obtain_token_via_quick_sso">通过微博客户端快速授权</string>
+    <string name="weibosdk_demo_obtain_token_via_code">通过 Code 获取 Token</string>
+    <string name="weibosdk_demo_obtain_token_logout">用户登出</string>
+    <string name="weibosdk_demo_token_info">Token 信息：</string>
+    <string name="weibosdk_demo_token_has_existed">Token 仍在有效期内，无需再次登录。</string>
+    <string name="weibosdk_demo_obtain_token_hint"><b>请注意：</b>\n<li>SSO 登录需要微博客户端的支持，目前仅 3.0.0 及以上微博客户端版本支持 SSO；如果未安装，将自动转为 Oauth2.0 Web 授权认证（即第一种认证方式）</li>\n<li>如果您通过方式一和方式二获取不到 Token，而是获取到 code，那说明您的包名和签名存在问题，请到开放平台注册包名和签名。详情请查看 FAQ 文档</li></string>
+    <string name="weibosdk_demo_obtain_token_via_sso_hint">使用 SSO 登录前，请检查手机上是否已经安装新浪微博客户端，目前仅 3.0.0 及以上微博客户端版本支持 SSO；如果未安装，将自动转为 Oauth2.0 进行认证。</string>
+    <string name="weibosdk_demo_obtain_token_via_code_hint"><b>请注意：</b>基于以下几点原因，您可能不想使用前面的两种授权方式：\n<li>出于安全性的考虑，您不信任目前使用应用的包名和签名来获取 Token 的方式</li>\n<li>您不想安装微博客户端</li>\n您可以自行通过 Code 来获取 Token。通过这种方式需要使用到 APP_SECRET，请务必妥善保管好自己的 APP_SECRET，<b>不要直接暴露在程序中，泄露有风险</b>。\n<b>更多细节请查看：</b><a href="http://open.weibo.com/wiki/%E6%8E%88%E6%9D%83%E6%9C%BA%E5%88%B6%E8%AF%B4%E6%98%8E#Web.E5.BA.94.E7.94.A8.E7.9A.84.E9.AA.8C.E8.AF.81.E6.8E.88.E6.9D.83">验证授权步骤</a></string>
+    <string name="weibosdk_demo_step_to_obtain_code">第一步：获取 Code</string>
+    <string name="weibosdk_demo_step_to_obtain_token">第二步：通过 Code 获取 Token</string>
+    <string name="weibosdk_demo_code_text_hint">第一步获取到的 Code：（一次性有效）</string>
+    <string name="weibosdk_demo_token_text_hint">第二步获取到的 Token：</string>
+    <string name="weibosdk_demo_token_to_string_format">Token：%1$s \nRefresh Token：%2$s \nexpires_in：%3$s</string>
+    <string name="weibosdk_demo_token_to_string_format_1">Token：%1$s \n有效期：%2$s</string>
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+    <string name="weibosdk_demo_toast_obtain_code_success">获取 Code 成功</string>
+    <string name="weibosdk_demo_toast_obtain_code_failed">获取 Code 失败</string>
+    <string name="weibosdk_demo_toast_obtain_token_success">获取 Token 成功</string>
+    <string name="weibosdk_demo_toast_obtain_token_failed">获取 Token 失败</string>   
+        
+    <string name="weibosdk_demo_game_achievement_add">后台游戏成就对象入库</string>
+    <string name="weibosdk_demo_game_achievement_update">后台游戏成就对象更新</string> 
+    <string name="weibosdk_demo_game_relation_add">用户获得游戏成就关系入库</string> 
+    <string name="weibosdk_demo_game_relation_update">用户获得游戏成就关系更新</string> 
+    
+    <string name="weibosdk_demo_game_score_add">得分关系入库</string> 
+    <string name="weibosdk_demo_game_read_player_score">读取玩家游戏分数</string> 
+    <string name="weibosdk_demo_game_read_player_friend_score">读取玩家好友的游戏分数 </string> 
+    <string name="weibosdk_demo_game_read_achievement_user_gain">读取玩家在某个游戏下的成就 </string> 
+    <string name="weibosdk_demo_game_invatation_friend_list">邀请好友列表 </string> 
+    <string name="weibosdk_demo_game_invatation_one_friend">邀请好友  单个h5页面 </string>  
+    <string name="weibosdk_demo_game_result_msg">接口请求结果 </string>   
+
+    <!-- 分享微博入口界面 -->
+    <string name="weibosdk_demo_is_support_sdk">当前微博客户端是否支持 SDK</string>
+    <string name="weibosdk_demo_register_app_to_weibo">注册应用到微博</string>
+    <string name="weibosdk_demo_share_to_weibo">分享到微博（仅客户端）</string>
+    <string name="weibosdk_demo_share_to_weibo_all_in_one">分享到微博（ALL IN ONE）</string>
+    <string name="weibosdk_demo_register_app_to_weibo_hint"><li>如何查看是否注册成功？打开微博客户端->点击发搏器->点击右下角的＋号->点击添加应用，看看能否看到该 DEMO 应用。</li>\n<li>当您的应用成功的注册到微博后，您可以通过从微博客户端唤起您的应用，实现分享（即微博附件栏集成分享）。</li>\n<li>该附件栏集成分享权限需要合作申请。<b>详情请见：</b><a href="http://open.weibo.com/wiki/%E7%A7%BB%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8E%A5%E5%85%A5">2、微博原生分享 --> b) 集成分享</a></li>\n<b>请注意：</b>目前该 DEMO 应用已申请过权限，默认情况下，第三方应用没有对应权限。</string>
+    <string name="weibosdk_demo_obtain_client_abstract_info_hint">当前微博客户端信息如下：</string>
+    <string name="weibosdk_demo_is_installed_weibo">1. 是否安装了微博客户端？</string>
+    <string name="weibosdk_demo_support_api_level">2. 当前微博客户端支持的 SDK 版本号：</string>
+    <string name="weibosdk_demo_support_api_level_hint"><b>请注意：</b>\n<li>目前第三方分享微博需要客户端的支持，请确保已安装微博客户端。如果不想使用微博客户端进行分享，请参照：<a href="http://open.weibo.com/wiki/2/statuses/upload">OpenAPI</a></li>\n<li>SupportApi >= 10351时，微博客户端支持同时分享多条数据，即同时可以分享文本、图片以及其它媒体资源（网页、音乐、视频、声音）中的一种；</li>\n<li>SupportApi &lt; 10351，微博客户端只支持分享单条数据，即只能分享文本、图片、网页、音乐、视频中的一种，不支持声音（Voice）消息；</li>\n<li>SupportApi = -1，微博客户端不支持 SDK 分享或微博客户端未安装或微博客户端是非官方版本。</li></string>
+    <string name="weibosdk_demo_not_support_api_hint">微博客户端不支持 SDK 分享或微博客户端未安装或微博客户端是非官方版本。</string>
+    <string name="weibosdk_demo_has_installed_weibo">\t已安装</string>
+    <string name="weibosdk_demo_has_not_installed_weibo">\t未安装</string>
+    <string name="weibosdk_demo_cancel_download_weibo">\t取消下载</string>
+    <string name="weibosdk_demo_toast_register_app_to_weibo">已注册，请打开微博客户端查看是否注册成功。</string>
+
+    <!-- 分享微博主界面 -->
+    <string name="weibosdk_demo_share_to_weibo_title">从本应用->微博->本应用</string>
+    <string name="weibosdk_demo_share_to_weibo_title_all_in_one">分享微博ALL IN ONE</string>
+    <string name="weibosdk_demo_share_from_weibo_title">从微博->本应用->微博</string>
+    <string name="weibosdk_demo_share_default_text">欢迎使用新浪微博 SDK</string>
+    <string name="weibosdk_demo_share_to">分  享</string>
+    <string name="weibosdk_demo_share_text_title">分享文字</string>
+    <string name="weibosdk_demo_share_image_title">分享图片</string>
+    <string name="weibosdk_demo_share_webpage_title">分享网页</string>
+    <string name="weibosdk_demo_share_music_title">分享音乐</string>
+    <string name="weibosdk_demo_share_video_title">分享视频</string>
+    <string name="weibosdk_demo_share_voice_title">分享声音</string>
+
+    
+   <!-- 分享到私信消息--> 
+   <string name="weibosdk_demo_share_to_weibo_weiyou">分享到微博私信好友</string>
+   	<string name="share_card">card分享到私信</string>
+   	<string name="share_url">url分享到私信</string>
+   
+    
+    
+    <!-- 分享所用的测试数据 -->
+    <string name="weibosdk_demo_share_webpage_desc">网页描述：XXX</string>
+    <string name="weibosdk_demo_share_music_desc">音乐描述：XXX</string>
+    <string name="weibosdk_demo_share_video_desc">视频描述：XXX</string>
+    <string name="weibosdk_demo_share_voice_desc">声音描述：XXX</string>
+    <string name="weibosdk_demo_app_url">https://github.com/mobileresearch/weibo_android_sdk/blob/master/WeiboSDKDemo.apk</string>
+    <string name="weibosdk_demo_test_webpage_url">http://news.sina.com.cn/c/2013-10-22/021928494669.shtml</string>
+    <string name="weibosdk_demo_test_music_url">http://music.sina.com.cn/yueku/i/2850305.html</string>
+    <string name="weibosdk_demo_test_video_url">http://video.sina.com.cn/p/sports/cba/v/2013-10-22/144463050817.html</string>
+    <!-- NOTE: Voice 的 URL 与 Music 一样 -->
+    <string name="weibosdk_demo_test_voice_url">http://music.sina.com.cn/yueku/i/2850305.html</string>
+
+    <!-- 分享示例模板 -->
+    <string name="weibosdk_demo_share_text_template">我正在使用微博客户端发博器分享文字</string>
+    <string name="weibosdk_demo_share_webpage_template">【%1$s】（分享自 WeiboSDKDemo %2$s）</string>
+    <string name="weibosdk_demo_share_music_template">我正在听 %1$s（分享自 WeiboSDKDemo %2$s）</string>
+    <string name="weibosdk_demo_share_video_template">我正在看 %1$s（分享自 WeiboSDKDemo %2$s）</string>
+    <string name="weibosdk_demo_share_voice_template">我分享了 %1$s（分享自 WeiboSDKDemo %2$s）</string>
+    <string name="weibosdk_demo_share_webpage_demo">XXX 新闻</string>
+    <string name="weibosdk_demo_share_music_demo">XXX 音乐</string>
+    <string name="weibosdk_demo_share_video_demo">XXX 视频</string>
+    <string name="weibosdk_demo_share_voice_demo">XXX 声音</string>
+
+    <!-- 分享成功失败的 Toast -->
+    <string name="weibosdk_demo_toast_share_success">分享成功</string>
+    <string name="weibosdk_demo_toast_share_failed">分享失败</string>
+    <string name="weibosdk_demo_toast_share_canceled">取消分享</string>
+    <string name="weibosdk_demo_toast_share_response_args_success">收到微博发起的请求成功</string>
+    <string name="weibosdk_demo_toast_share_response_args_failed">收到客户端请求消息失败</string>
+    
+    <!-- 微博支付 -->
+    <string name="weibosdk_demo_weibo_pay_get_order_uri">http://180.149.139.199:8081/v2/pay/paydemo</string>
+    <string name="weibosdk_demo_weibo_pay_get_order">获取订单</string>
+    <string name="weibosdk_demo_weibo_pay">微博支付</string>
+    <string name="weibosdk_demo_support_weibo_pay"> 当前微博客户端是否支持支付？</string>
+    
+    <!-- 登录/注销按钮 -->
+    <string name="weibosdk_demo_login_hint"><b>一键登录按钮：</b>\n（有以下三种样式，第一种为默认效果）</string>
+    <string name="weibosdk_demo_login_with_text_hint"><b>登录/注销按钮：</b>\n（有以下两种样式，第一种为默认效果，可修改）</string>
+    <string name="weibosdk_demo_logout_hint"><b>注销按钮：</b>\n（注意：该按钮不再进行封装，第三方可直接调用 LogoutAPI，<b>一个 token 不能重复注销多次</b>）</string>
+    <string name="weibosdk_demo_logout">注销</string>
+    <string name="weibosdk_demo_logout_success">已注销</string>
+    <string name="weibosdk_demo_logout_failed">注销失败</string>
+    <string name="weibosdk_demo_logout_failed_1">注销失败，请检查 Token 是否正确（一个 token 不能重复注销多次）</string>
+    
+    <!-- OpenAPI -->
+	<string name="weibosdk_demo_openapi_revoke_auth_success">授权回收成功</string>
+	<string name="weibosdk_demo_openapi_revoke_auth_failed">授权回收失败</string>
+    <string name="weibosdk_demo_openapi_invite_uid_hint">请输入被邀请人的uid</string>
+    <string name="weibosdk_demo_openapi_invite">邀请</string>
+    <string name="weibosdk_demo_openapi_invite_success">发送邀请成功</string>
+    <string name="weibosdk_demo_openapi_invite_failed">发送邀请失败</string>
+    <string name="weibosdk_demo_access_token_is_empty">Access Token 不存在，请先登录</string>
+   
+        <!-- scheme 调用 -->
+	<string name="goto_profile">查看某人主页面</string>
+	<string name="goto_home_message">进入微博主页消息页面</string>
+    <string name="goto_hot_weibo">进入热门微博</string>
+    <string name="goto_hot_topic">进入热门话题</string>
+    <string name="goto_send_weibo">进入发微薄页面</string>
+
+    
+    
+    	<!-- 统计上传页 -->
+	<string name="weibosdk_demo_fragment_title">This is a fragment page</string>
+    <string name="weibosdk_demo_log_upload">强制上传</string>
+    <string name="weibosdk_demo_log_event">click event</string>
+    <string name="weibosdk_demo_fragment_create">dynamic create fragment</string>
+    <string name="weibosdk_demo_fragment_destroy">dynamic destroy fragment</string>
+    <string name="weibosdk_demo_fragment_remove">remove fragment</string>
+    <string name="weibosdk_demo_fragment_event">click fragment</string>
+    <string name="weibosdk_demo_fragment_btn">fragment click</string>
+    
+    
+    <!-- 其它 -->
+    <string name="weibosdk_demo_launch_post_weibo">发送微博</string>
+    <string name="weibosdk_demo_launch_nearby_people">周边的人</string>
+    <string name="weibosdk_demo_launch_nearby_weibo">周边的微博</string>
+    <string name="weibosdk_demo_launch_user_info">个人资料</string>
+    <string name="weibosdk_demo_launch_page_info">位置（page）介绍面</string>
+    <string name="weibosdk_demo_launch_page_product_list">图书（page）产品列表</string>
+    <string name="weibosdk_demo_launch_page_user_list">位置用户列表</string>
+    <string name="weibosdk_demo_launch_page_weibo_list">位置微博列表</string>
+    <string name="weibosdk_demo_launch_page_photo_list">位置图片列表</string>
+    <string name="weibosdk_demo_launch_page_detail_info">位置详细资料页</string>
+    <string name="weibosdk_demo_launch_user_trends">话题列表</string>
+    <string name="weibosdk_demo_launch_weibo_browser">内置浏览器打开</string>
+    <string name="weibosdk_demo_launch_weibo_map">地图页面</string>
+    <string name="weibosdk_demo_launch_near_photo_list">xy周边热图</string>
+    <string name="weibosdk_demo_launch_poi_photo_list">poi周边热图</string>
+    <string name="weibosdk_demo_launch_poi_page">POI页面</string>
+    <string name="weibosdk_demo_launch_mblog_detail">查看微博正文</string>
+    <string name="weibosdk_demo_launch_qrcode">扫描二维码界面</string>
+
+
+    <string name="heartrate">心率</string>
+    <string name="petname">宠物名</string>
+    <string name="pettemperature">宠物温度</string>
+    <string name="petstep">运动步数</string>
+    <string name="age">年龄</string>
+    <string name="light">灯控开关</string>
+
+    <string name="search">搜索</string>
+    <string name="search_bt">搜 索</string>
+    <string name="medical">医疗</string>
+    <string name="diet">饮食</string>
+    <string name="motion">运动</string>
+    <string name="psychological">心理</string>
+    <string name="driver_title">宠物信息监测</string>
+    <string name="xiaobai">小白</string>
+    <string name="temp">室外温度</string>
+
+
+    <string name="create_button_name">+\n新建</string>
+    <string name="text_tile">标题：</string>
+    <string name="edit_hint">请输入标题</string>
+    <string name="button_back">＜</string>
+    <string name="button_save">√</string>
+    <string name="edit_body_hint">请输入内容...</string>
+    <string name="edit_title_time_hint">这里显示时间</string>
+    <string name="edit_title_text">新建备忘录</string>
+    <string name="str_upcoming">待办</string>
+    <string name="str_notice">提醒</string>
+    <string name="other_operation">其他选项：</string>
+
+    <string name="ac01">pets_notebook</string>
+    <string name="ac02">history_record</string>
+    <string name="ac03">product_manual</string>
+    <string name="ac04">contact_us</string>
+</resources>

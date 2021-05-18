@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.layout_class.dropdownLayout.LQRDropdownLayout
+        android:id="@+id/dl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ddl_only_show_one="true"
+        app:ddl_top_btn_text_prefix="站点选择--"
+        app:ddl_top_btn_text_suffix=""/>
+</RelativeLayout>

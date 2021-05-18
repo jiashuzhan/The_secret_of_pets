@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_theme_yellow"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:background="@color/back_theme_yellow"
+           android:id="@+id/top_user"
+           android:gravity="center"
+           android:layout_height="100dp"
+           android:orientation="horizontal">
+<RelativeLayout
+    android:layout_width="90dp"
+    android:layout_height="80dp"
+    android:layout_marginLeft="28dp">
+
+    <ImageButton
+        android:id="@+id/turn1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginRight="40dp"
+        android:background="@android:color/transparent"
+        android:onClick="turn1InfoButtonHandler"
+        android:src="@drawable/sun3" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:text="医疗"
+        android:layout_marginTop="58dp"
+        android:textSize="18dp"
+        android:gravity="center"/>
+</RelativeLayout>
+           <RelativeLayout
+               android:layout_width="90dp"
+               android:layout_height="85dp"
+               >
+           <ImageButton
+               android:id="@+id/turn2"
+               android:layout_marginRight="40dp"
+               android:layout_width="55dp"
+               android:layout_height="55dp"
+               android:src="@drawable/shi"
+               android:background="@android:color/transparent"
+               android:layout_marginTop="5dp"
+               />
+               <TextView
+                   android:layout_width="50dp"
+                   android:layout_height="35dp"
+                   android:text="饮食"
+                   android:layout_marginTop="60dp"
+                   android:textSize="18dp"
+                   android:gravity="center"/>
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="90dp"
+               android:layout_height="85dp"
+               >
+           <ImageButton
+               android:id="@+id/turn3"
+               android:layout_marginRight="40dp"
+               android:layout_width="55dp"
+               android:layout_height="55dp"
+               android:layout_marginTop="5dp"
+               android:background="@android:color/transparent"
+               android:src="@drawable/ling"
+               />
+               <TextView
+                   android:layout_width="50dp"
+                   android:layout_height="35dp"
+                   android:text="运动"
+                   android:layout_marginTop="60dp"
+                   android:textSize="18dp"
+                   android:gravity="center"/>
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="90dp"
+               android:layout_height="85dp"
+               >
+           <ImageButton
+               android:id="@+id/turn4"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/snow"
+               android:background="@android:color/transparent"
+               android:layout_marginTop="5dp"
+               />
+               <TextView
+                   android:layout_width="50dp"
+                   android:layout_height="35dp"
+                   android:text="心理"
+                   android:layout_marginTop="60dp"
+                   android:textSize="18dp"
+                   android:gravity="center"/>
+           </RelativeLayout>
+
+       </LinearLayout>
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/top_user">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/text_line"
+                    />
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:background="@color/text_ad">
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="@string/ad01"
+                               android:textSize="15dp" />
+                       </LinearLayout>
+                   </LinearLayout>
+
+                   <ImageButton
+                       android:id="@+id/news1"
+                       android:layout_width="120dp"
+                       android:layout_height="95dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="6dp"
+                       android:maxWidth="50dp"
+                       android:maxHeight="50dp"
+                       android:onClick="news1InfoButtonHandler"
+                       android:src="@drawable/dog111111" />
+               </RelativeLayout>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="@color/text_line"
+                   android:layout_marginTop="10dp"/>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:background="@color/text_ad">
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp">
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:textSize="15dp"
+                               android:text="@string/ad01"/>
+                       </LinearLayout>
+                   </LinearLayout>
+
+                   <ImageButton
+                       android:id="@+id/news2"
+                       android:layout_width="120dp"
+                       android:layout_height="95dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="6dp"
+                       android:maxWidth="50dp"
+                       android:maxHeight="50dp"
+                       android:onClick="news2InfoButtonHandler"
+                       android:src="@drawable/dog22222" />
+               </RelativeLayout>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="@color/text_line"
+                   android:layout_marginTop="10dp"/>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:background="@color/text_ad">
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp">
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:textSize="15dp"
+                               android:text="@string/ad03"/>
+                       </LinearLayout>
+                   </LinearLayout>
+
+                   <ImageButton
+                       android:id="@+id/new3"
+                       android:layout_width="120dp"
+                       android:layout_height="95dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="6dp"
+                       android:maxWidth="50dp"
+                       android:maxHeight="50dp"
+                       android:onClick="news3InfoButtonHandler"
+                       android:src="@drawable/dog333" />
+               </RelativeLayout>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="@color/text_line"
+                   android:layout_marginTop="10dp"/>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:background="@color/text_ad">
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="@string/ad04"
+                               android:textSize="15dp" />
+                       </LinearLayout>
+                   </LinearLayout>
+
+                   <ImageButton
+                       android:id="@+id/new4"
+                       android:layout_width="120dp"
+                       android:layout_height="95dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="6dp"
+                       android:maxWidth="50dp"
+                       android:maxHeight="50dp"
+                       android:onClick="news4InfoButtonHandler"
+                       android:src="@drawable/dog444" />
+               </RelativeLayout>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="@color/text_line"
+                   android:layout_marginTop="10dp"/>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:background="@color/text_ad">
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp">
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:textSize="21dp"
+                               android:text="@string/ad05"/>
+                       </LinearLayout>
+                   </LinearLayout>
+                   <ImageButton
+                       android:id="@+id/news5"
+                       android:layout_marginRight="10dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_width="120dp"
+                       android:layout_height="95dp"
+                       android:maxHeight="50dp"
+                       android:onClick="news5InfoButtonHandler"
+                       android:src="@drawable/dog55"
+                       android:maxWidth="50dp" />
+               </RelativeLayout>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="@color/text_line"
+                   android:layout_marginTop="10dp"/>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:background="@color/text_ad">
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp">
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:textSize="15dp"
+                               android:text="@string/ad06"/>
+                       </LinearLayout>
+                   </LinearLayout>
+
+                   <ImageButton
+                       android:id="@+id/new6"
+                       android:layout_width="120dp"
+                       android:layout_height="95dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="6dp"
+                       android:maxWidth="50dp"
+                       android:maxHeight="50dp"
+                       android:src="@drawable/dog66"
+                       android:onClick="news6InfoButtonHandler" />
+               </RelativeLayout>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="@color/text_line"
+                   android:layout_marginTop="10dp"/>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:background="@color/text_ad">
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp">
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:textSize="15dp"/>
+                       </LinearLayout>
+                   </LinearLayout>
+                   <ImageButton
+                       android:id="@+id/news7"
+                       android:layout_marginRight="6dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_width="120dp"
+                       android:layout_height="95dp"
+                       android:maxHeight="50dp"
+                       android:src="@drawable/dog7777"
+                       android:onClick="news7InfoButtonHandler"
+                       android:maxWidth="50dp" />
+               </RelativeLayout>
+
+           </LinearLayout>
+       </ScrollView>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/turn_in_line"
+           android:layout_marginBottom="15dp"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:background="#f4a460"
+           android:gravity="center">
+
+           <ImageButton
+               android:id="@+id/driver_information"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_marginRight="45dp"
+               android:background="@android:color/transparent"
+               android:onClick="driverInfoButtonHandler"
+               android:scaleType="fitXY"
+               android:src="@drawable/user_info" />
+
+           <ImageButton
+               android:id="@+id/manager_send_info"
+               android:layout_width="65dp"
+               android:layout_height="65dp"
+               android:layout_marginRight="45dp"
+               android:background="@android:color/transparent"
+               android:onClick="returnhomeHandler"
+               android:scaleType="fitXY"
+               android:src="@drawable/returnhome_button" />
+
+           <ImageButton
+
+               android:id="@+id/company_report"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:background="@android:color/transparent"
+               android:onClick="transientHandler"
+               android:scaleType="fitXY"
+               android:src="@drawable/setting_button" />
+
+       </LinearLayout>
+   </RelativeLayout>
+
+</LinearLayout>
